@@ -14,6 +14,7 @@ export default function Page() {
                 <p className="text-white font-mono">
                 Hey, I am Jianchao Zhou, My Preferred English name is Cyrus!
                 </p>
+                <br/>
                 <p className="text-white font-mono">
                 I Presently enrolled as a data analytics major at Brown University. In the past 5 years, I earned a bachelor's degree in journalism from Jinan University and a master's degree in business analytics from the University of Connecticut. My academic journey reflects a diverse range of interests, particularly in public discourse such as environmental resources, technology, and urban planning. Eager to delve deeper, I aspire to conduct scholarly research within these domains. 
                 Complementing my academic pursuits, I boast a professional background within several technology enterprises, where I actively engaged in roles encompassing data analysis and product evaluation. This experience has not only fortified my analytical prowess but also honed my practical understanding of translating insights into strategic actions. In essence, I embody a unique fusion of academic enthusiasm and real-world proficiency, positioning me as a multifaceted asset poised to contribute meaningfully across both research and practical spheres.
