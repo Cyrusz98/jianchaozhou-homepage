@@ -1,7 +1,5 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Bar from "@/app/components/bar";
-import Content from "@/app/components/content";
 
 export const metadata = {
 
@@ -16,4 +14,3 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
-
