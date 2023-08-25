@@ -12,7 +12,7 @@ export default function Page() {
             <div className="2xl:w-1/2 xl:w-2/3 lg:w-2/3 md:w-2/3 sm:w-full md:align-middle px-10 h-full">
                 <h1 className="text-white font-Verdana font-bold text-xl my-10">Introduction</h1>
                 <p className="text-white font-Verdana">
-                My realname is jianchao, and I got "cyrus" as my English name in 2020 during my trip to Tibet. My MBTI is ENFP.
+                My real name is jianchao, and I got "cyrus" as my English name in 2020 during my trip to Tibet. My MBTI is ENFP.
                 </p>
                 <br/>
                 <p className="text-white font-Verdana">
@@ -28,3 +28,23 @@ export default function Page() {
         </Content>
     )
 }
+export default function RootLayout({ children }) {
+    return (
+      <html lang="en">
+        <head>
+          <link rel="stylesheet" href="/path/to/your/globals.css" />
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/next-fonts@1.3.0/inter.css" />
+  
+          {/* Embed your audio element in the <head> to ensure it's loaded with the page */}
+          <audio autoplay loop>
+            <source src="public/Yellow.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+        </head>
+        <body className="h-full bg-black">
+          {children}
+        </body>
+      </html>
+    );
+  }
+  
