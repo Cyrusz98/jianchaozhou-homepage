@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
         <div className="h-28"></div>
         {children}
         <audio autoPlay loop>
-          <source src="public/Yellow.mp3" type="audio/mpeg" />
+          <source src="/Yellow.mp3" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
       </body>
