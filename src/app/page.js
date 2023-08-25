@@ -6,7 +6,7 @@ export default function Home() {
         <Main>
             <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
             <h1 className="z-10 text-4xl 2xl:text-8xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-mono sm:text-6xl md:text-7xl whitespace-nowrap bg-clip-text">
-                Cyrus
+                Cyrus 🦁️
             </h1>
             <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 
@@ -16,9 +16,9 @@ export default function Home() {
 
             <div className="grid 2xl:w-1/2 xl:w-2/3 lg:w-2/3 md:w-2/3 md:grid-cols-3 mb-32 text-center lg:mb-0 lg:grid-cols-3 lg:text-left animate-fade-in">
                 <Card name="Introduction" href="/about"/>
-                <Card name="linkin" href="https://www.linkedin.com/in/cyrus-zhou-0958a0157/"/>
+                <Card name="linkedin" href="https://www.linkedin.com/in/cyrus-zhou-0958a0157/"/>
                 <Card name="Projects" href="/projects"/>
-                <Card name="Works" href="/projects"/>
+                <Card name="Daliylife" href="/Daliylife"/>
             </div>
         </Main>
     )
