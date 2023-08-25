@@ -13,17 +13,16 @@ export default function Home() {
                 <Card name="Projects" href="/projects"/>
                 <Card name="Daliylife" href="/Daliylife"/>
             </div>
-            <div className="text-center">
+            <div className="flex justify-center mt-8">
+                <Card name="linkedin" href="https://www.linkedin.com/in/cyrus-zhou-0958a0157/"/>
+            </div>
+            <div className="mt-16 text-center">
                 <p className="font-bold">Address:</p>
                 10 Park Row W, Providence, RI 02903
                 <p className="font-bold mt-2">Email:</p>
                 jianchao_zhou@brown.edu
                 <p className="font-bold mt-2">Tel:</p>
-                860-8690434
-            </div>
-            <div className="mb-8"></div>
-            <div className="flex justify-center mt-8">
-                <Card name="linkedin" href="https://www.linkedin.com/in/cyrus-zhou-0958a0157/"/>
+                860-869-0434
             </div>
         </Main>
     );
