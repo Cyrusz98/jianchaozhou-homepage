@@ -17,16 +17,13 @@ export default function Home() {
             <div className="mt-16 text-center">
                 <div className="flex justify-between">
                     <div className="font-bold">
-                        <p>Address:</p>
-                        <p>10 Park Row W, Providence, RI 02903</p>
+                        <p>Address:</p> 10 Park Row W, Providence, RI 02903
                     </div>
                     <div className="font-bold">
-                        <p>Email:</p>
-                        <p>jianchao_zhou@brown.edu</p>
+                        <p>Email:</p> jianchao_zhou@brown.edu
                     </div>
                     <div className="font-bold">
-                        <p>Tel:</p>
-                        <p>860-869-0434</p>
+                        <p>Tel:</p> 860-869-0434
                     </div>
                 </div>
             </div>
