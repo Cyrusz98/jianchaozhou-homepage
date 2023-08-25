@@ -15,9 +15,10 @@ export default function Home() {
             </span>
 
             <div className="grid 2xl:w-1/2 xl:w-2/3 lg:w-2/3 md:w-2/3 md:grid-cols-3 mb-32 text-center lg:mb-0 lg:grid-cols-3 lg:text-left animate-fade-in">
-                <Card name="About" href="/about"/>
-                <Card name="Blog" href="https://blog.williamq.me"/>
+                <Card name="Introduction" href="/about"/>
+                <Card name="linkin" href="https://www.linkedin.com/in/cyrus-zhou-0958a0157/"/>
                 <Card name="Projects" href="/projects"/>
+                <Card name="Works" href="/projects"/>
             </div>
         </Main>
     )
