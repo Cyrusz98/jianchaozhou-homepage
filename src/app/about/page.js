@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/ME.jpeg" alt="Me" className="lg:w-1/5 w-1/3 h-auto rounded-full"/>
         </div>
-        <div className="2xl:w-1/2 xl:w-2/3 lg:w-2/3 md:w-2/3 sm:w-full md:align-middle px-10 h-full items-center"> {/* 添加 text-center 类 */}
+        <div className="2xl:w-1/2 xl:w-2/3 lg:w-2/3 md:w-2/3 sm:w-full md:align-middle px-10 h-full text-center"> {/* 添加 text-center 类 */}
           <h1 className="text-white font-Verdana font-bold text-xl my-10">Introduction</h1>
           <p className="text-white font-Verdana">
             My real name is jianchao, and I got "cyrus" as my English name in 2020 during my trip to Tibet. My MBTI is ENFP.
