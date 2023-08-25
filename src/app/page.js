@@ -8,7 +8,7 @@ export default function Home() {
             <h1 className="z-10 text-4xl 2xl:text-8xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-Helvetica sm:text-6xl md:text-7xl whitespace-nowrap bg-clip-text">
                 Cyrus 🐶
             </h1>
-            <div className="flex justify-center mt-8">
+            <div className="flex justify-center mt-16">
                 <Card name="Introduction" href="/about"/>
                 <Card name="Projects" href="/projects"/>
                 <Card name="Daliylife" href="/Daliylife"/>
