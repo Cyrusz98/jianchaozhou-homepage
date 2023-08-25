@@ -8,19 +8,27 @@ export default function Home() {
             <h1 className="z-10 text-4xl 2xl:text-8xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-Helvetica sm:text-6xl md:text-7xl whitespace-nowrap bg-clip-text">
                 Cyrus 🐶
             </h1>
-            <div className="flex justify-center mt-8 mx-8"> {/* 添加 mx-4 类 */}
+            <div className="flex justify-center mt-8 mx-8"> {/* 将 mx-4 改为 mx-8 */}
                 <Card name="Introduction" href="/about"/>
                 <Card name="Projects" href="/projects"/>
                 <Card name="Daliylife" href="/Daliylife"/>
                 <Card name="linkedin" href="https://www.linkedin.com/in/cyrus-zhou-0958a0157/"/>
             </div>
             <div className="mt-16 text-center">
-                <p className="font-bold">Address:</p>
-                10 Park Row W, Providence, RI 02903
-                <p className="font-bold mt-2">Email:</p>
-                jianchao_zhou@brown.edu
-                <p className="font-bold mt-2">Tel:</p>
-                860-869-0434
+                <div className="flex justify-between max-w-2xl mx-auto"> {/* 使用 Flex 布局 */}
+                    <div className="text-left">
+                        <p className="font-bold">Address:</p>
+                        10 Park Row W, Providence, RI 02903
+                    </div>
+                    <div className="text-left">
+                        <p className="font-bold">Email:</p>
+                        jianchao_zhou@brown.edu
+                    </div>
+                    <div className="text-left">
+                        <p className="font-bold">Tel:</p>
+                        860-869-0434
+                    </div>
+                </div>
             </div>
         </Main>
     );
