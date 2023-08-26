@@ -1,5 +1,7 @@
 import React from 'react';
 import Main from "@/app/components/main";
+import Bar from "@/app/components/bar";
+
 
 export default function Dailylife() {
     return (
@@ -13,7 +15,7 @@ export default function Dailylife() {
                     <div className="p-4 bg-white rounded-lg shadow-md">
                         <h3 className="text-xl font-semibold mb-2">Morning Routine</h3>
                         <p>
-                            My mornings usually start with a cup of coffee and some light reading. I then head to the gym for a workout to kickstart the day.
+                            My mornings usually start with a cup of tea and some light reading. I then head to the gym for a workout to kickstart the day.
                         </p>
                     </div>
                     <div className="p-4 bg-white rounded-lg shadow-md">
