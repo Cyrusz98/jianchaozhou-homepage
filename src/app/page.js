@@ -24,9 +24,8 @@ export default function Home() {
                 <Card name="Projects" href="/projects"/>
                 <Card name="Daliylife" href="/Daliylife"/>
             </div>
-            <br /><br /><br /><br /><br />
-            <p><strong>Address:</strong>10 park row W, Providence,RI 02903 <strong>Email:</strong> jianchao_zhou@brown.edu</p> 
-            <p><strong>Tel:</strong>860-8690434</p> 
+            <br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <p><strong>Address:</strong>10 park row W, Providence,RI 02903  <strong>Email:</strong> jianchao_zhou@brown.edu  <strong>Tel:</strong>860-8690434</p> 
         </Main>
     );
 }
