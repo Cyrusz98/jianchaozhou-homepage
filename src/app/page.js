@@ -22,7 +22,7 @@ export default function Home() {
                 <Card name="Introduction" href="/about"/>
                 <Card name="linkedin" href="https://www.linkedin.com/in/cyrus-zhou-0958a0157/"/>
                 <Card name="Projects" href="/projects"/>
-                <Card name="Daliylife" href="/Daliylife"/>
+                <Card name="Daliylife" href="/Dailylife"/>
             </div>
             <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
             <p><strong>Address:</strong>10 park row W, Providence,RI 02903 &nbsp;&nbsp; <strong>Email:</strong> jianchao_zhou@brown.edu &nbsp;&nbsp; <strong>Tel:</strong>860-8690434</p> 

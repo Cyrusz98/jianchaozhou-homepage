@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         <div className="2xl:w-1/2 xl:w-2/3 lg:w-2/3 md:w-2/3 sm:w-full md:align-middle px-10 h-full">
           <h1 className="text-white font-Verdana font-bold text-xl my-10">Introduction</h1>
           <p className="text-white font-Verdana">
-            My real name is jianchao, and I got "cyrus" as my English name in 2020 during my trip to Tibet. My MBTI is ENFP.
+            My real name is jianchao, and "cyrus" is my preferred english name. My MBTI is ENFP.
           </p>
           <br/>
           <p className="text-white font-Verdana">
